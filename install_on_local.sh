@@ -5,7 +5,7 @@ conda create -n af2 python=3.8 -y
 conda activate af2
 
 conda install -y -c nvidia cudnn==8.0.4
-conda install -y -c bioconda hmmer hhsuite==3.3.0 kalign2
+conda install -y -c bioconda hmmer hhsuite==3.3.0 kalign2 -c conda-forge
 
 conda install -y -c conda-forge \
       openmm=7.5.1 \
