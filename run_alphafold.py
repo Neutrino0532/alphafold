@@ -74,7 +74,7 @@ bfd_database_path = os.path.join(
 
 # Path to the Uniclust30 database for use by HHblits.
 uniclust30_database_path = os.path.join(
-    DOWNLOAD_DIR, 'uniclust30', 'UniRef30_2020_02')
+    DOWNLOAD_DIR, 'uniclust30', 'UniRef30_2020_02', 'UniRef30_2020_02')
     #DOWNLOAD_DIR, 'uniclust30', 'uniclust30_2018_08', 'uniclust30_2018_08')
 
 # Path to the PDB70 database for use by HHsearch.
