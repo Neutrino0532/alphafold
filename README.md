@@ -46,10 +46,11 @@ The following steps are required in order to run AlphaFold:
         pip
 
     # python pkgs
-    pip3 install --upgrade pip \
-        && pip3 install -r ./requirements.txt \
-        && pip3 install --upgrade "jax[cuda111]" -f \
-        https://storage.googleapis.com/jax-releases/jax_releases.html
+      pip3 install --upgrade pip \
+          && pip3 install -r ./requirements.txt \
+          && pip3 install --upgrade "jax[cuda111]" -f \
+          https://storage.googleapis.com/jax-releases/jax_releases.html \
+      pip install --upgrade jax jaxlib==0.1.69+cuda111 -f https://storage.googleapis.com/jax-releases/jax_releases.html
 
     # work_path=/path/to/alphafold-code
     work_path=$(PWD)
